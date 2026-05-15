@@ -32,21 +32,13 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         {
-          name: "Our Story",
-          id: "about",
-        },
+          name: "Our Story",          id: "about"},
         {
-          name: "Menu",
-          id: "menu",
-        },
+          name: "Menu",          id: "menu"},
         {
-          name: "Gallery",
-          id: "gallery",
-        },
+          name: "Gallery",          id: "gallery"},
         {
-          name: "Bookings",
-          id: "reservation",
-        },
+          name: "Bookings",          id: "reservation"},
       ]}
       brandName="Syrisches Haus"
     />
@@ -55,42 +47,21 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplitDualMedia
       background={{
-        variant: "radial-gradient",
-      }}
+        variant: "radial-gradient"}}
       title="A Symphony of Culinary Art"
       description="Experience a journey of taste where tradition meets modern sophistication in every meticulously plated dish."
       tag="Syrisches Haus - Fine Dining"
       buttons={[
         {
-          text: "Reserve a Table",
-          href: "#reservation",
-        },
+          text: "Reserve a Table",          href: "#reservation"},
         {
-          text: "View Menu",
-          href: "#menu",
-        },
+          text: "View Menu",          href: "#menu"},
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/fresh-black-pasta-fork_23-2148469861.jpg",
-          imageAlt: "Culinary excellence",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/fresh-black-pasta-fork_23-2148469861.jpg",          imageAlt: "Culinary excellence"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/dining-table-with-chairs-tableware_140725-7823.jpg",
-          imageAlt: "Fine dining ambiance",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/dark-plates-with-pasta-eggs-with-beans-dark-background_23-2148340392.jpg",
-          imageAlt: "Dark plates with pasta and eggs",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/shrimp-black-pasta-with-clams-seeds_23-2148425591.jpg",
-          imageAlt: "Shrimp black pasta",
-        },
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/shrimp-black-pasta-with-clams-seeds-top-view_23-2148425592.jpg",
-          imageAlt: "Top view of culinary dish",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/dining-table-with-chairs-tableware_140725-7823.jpg",          imageAlt: "Fine dining ambiance"}
       ]}
       mediaAnimation="blur-reveal"
       rating={5}
@@ -115,34 +86,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          id: "f1",
-          label: "Selection",
-          title: "Artisan Ingredients",
-          items: [
-            "Locally sourced organic produce",
-            "Rare imported culinary herbs",
-            "Sustainable farm-to-table supply",
-          ],
+          id: "f1",          label: "Selection",          title: "Artisan Ingredients",          items: [
+            "Locally sourced organic produce",            "Rare imported culinary herbs",            "Sustainable farm-to-table supply"],
         },
         {
-          id: "f2",
-          label: "Craft",
-          title: "Precision Plating",
-          items: [
-            "Master chef culinary expertise",
-            "Elegant visual composition",
-            "Modern fine dining aesthetics",
-          ],
+          id: "f2",          label: "Craft",          title: "Precision Plating",          items: [
+            "Master chef culinary expertise",            "Elegant visual composition",            "Modern fine dining aesthetics"],
         },
         {
-          id: "f3",
-          label: "Ambiance",
-          title: "Sophisticated Atmosphere",
-          items: [
-            "Minimalist luxury interior design",
-            "Warm ambient lighting",
-            "Private booth availability",
-          ],
+          id: "f3",          label: "Ambiance",          title: "Sophisticated Atmosphere",          items: [
+            "Minimalist luxury interior design",            "Warm ambient lighting",            "Private booth availability"],
         },
       ]}
       title="Signature Experiences"
@@ -158,59 +111,23 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",
-          brand: "Starter",
-          name: "Velouté of Forest Mushrooms",
-          price: "€18",
-          rating: 5,
-          reviewCount: "120",
-          imageSrc: "http://img.b2bpic.net/free-photo/tuna-sushi_1203-8900.jpg",
-        },
+          id: "p1",          brand: "Starter",          name: "Velouté of Forest Mushrooms",          price: "€18",          rating: 5,
+          reviewCount: "120",          imageSrc: "http://img.b2bpic.net/free-photo/tuna-sushi_1203-8900.jpg"},
         {
-          id: "p2",
-          brand: "Main Course",
-          name: "Pan-Seared Atlantic Scallops",
-          price: "€34",
-          rating: 5,
-          reviewCount: "98",
-          imageSrc: "http://img.b2bpic.net/free-photo/vertical-view-delicious-cakes-blue-tray-biscuits-dark-background_140725-91971.jpg",
-        },
+          id: "p2",          brand: "Main Course",          name: "Pan-Seared Atlantic Scallops",          price: "€34",          rating: 5,
+          reviewCount: "98",          imageSrc: "http://img.b2bpic.net/free-photo/vertical-view-delicious-cakes-blue-tray-biscuits-dark-background_140725-91971.jpg"},
         {
-          id: "p3",
-          brand: "Main Course",
-          name: "Aged Wagyu Beef Tenderloin",
-          price: "€56",
-          rating: 5,
-          reviewCount: "210",
-          imageSrc: "http://img.b2bpic.net/free-photo/pasta-with-green-pesto-sauce-with-peanuts_114579-2434.jpg",
-        },
+          id: "p3",          brand: "Main Course",          name: "Aged Wagyu Beef Tenderloin",          price: "€56",          rating: 5,
+          reviewCount: "210",          imageSrc: "http://img.b2bpic.net/free-photo/pasta-with-green-pesto-sauce-with-peanuts_114579-2434.jpg"},
         {
-          id: "p4",
-          brand: "Main Course",
-          name: "Roasted Herb-Crusted Lamb",
-          price: "€42",
-          rating: 5,
-          reviewCount: "85",
-          imageSrc: "http://img.b2bpic.net/free-photo/grilled-lobster-tail-with-herbs-strawberries-black-plate_84443-94406.jpg",
-        },
+          id: "p4",          brand: "Main Course",          name: "Roasted Herb-Crusted Lamb",          price: "€42",          rating: 5,
+          reviewCount: "85",          imageSrc: "http://img.b2bpic.net/free-photo/grilled-lobster-tail-with-herbs-strawberries-black-plate_84443-94406.jpg"},
         {
-          id: "p5",
-          brand: "Dessert",
-          name: "Dark Chocolate Ganache",
-          price: "€16",
-          rating: 5,
-          reviewCount: "150",
-          imageSrc: "http://img.b2bpic.net/free-photo/white-plate-with-baked-vegetables-stands-barrel_1304-4659.jpg",
-        },
+          id: "p5",          brand: "Dessert",          name: "Dark Chocolate Ganache",          price: "€16",          rating: 5,
+          reviewCount: "150",          imageSrc: "http://img.b2bpic.net/free-photo/white-plate-with-baked-vegetables-stands-barrel_1304-4659.jpg"},
         {
-          id: "p6",
-          brand: "Dessert",
-          name: "Lemon Infused Panna Cotta",
-          price: "€14",
-          rating: 5,
-          reviewCount: "112",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-close-up-view-plate-appetizing-dish-stuffed-cabbage-with-herbs-lemon-sauce-white-plate-black-surface_140725-117284.jpg",
-        },
+          id: "p6",          brand: "Dessert",          name: "Lemon Infused Panna Cotta",          price: "€14",          rating: 5,
+          reviewCount: "112",          imageSrc: "http://img.b2bpic.net/free-photo/top-close-up-view-plate-appetizing-dish-stuffed-cabbage-with-herbs-lemon-sauce-white-plate-black-surface_140725-117284.jpg"},
       ]}
       title="The Culinary Menu"
       description="A refined menu reflecting seasonal excellence and timeless culinary mastery."
@@ -224,51 +141,27 @@ export default function LandingPage() {
       useInvertedBackground={false}
       plans={[
         {
-          id: "view-1",
-          price: "Elegant",
-          name: "Main Dining Hall",
-          features: [
-            "Spacious minimalist layout",
-            "Natural warm lighting",
-            "Breathtaking architectural view",
-          ],
+          id: "view-1",          price: "Elegant",          name: "Main Dining Hall",          features: [
+            "Spacious minimalist layout",            "Natural warm lighting",            "Breathtaking architectural view"],
           buttons: [
             {
-              text: "Reserve Now",
-              href: "#reservation",
-            },
+              text: "Reserve Now",              href: "#reservation"},
           ],
         },
         {
-          id: "view-2",
-          price: "Exclusive",
-          name: "Private Chef's Table",
-          features: [
-            "Intimate atmosphere",
-            "Chef-curated tasting menu",
-            "Private butler service",
-          ],
+          id: "view-2",          price: "Exclusive",          name: "Private Chef's Table",          features: [
+            "Intimate atmosphere",            "Chef-curated tasting menu",            "Private butler service"],
           buttons: [
             {
-              text: "Reserve Now",
-              href: "#reservation",
-            },
+              text: "Reserve Now",              href: "#reservation"},
           ],
         },
         {
-          id: "view-3",
-          price: "Classic",
-          name: "Outdoor Garden Terrace",
-          features: [
-            "Quiet serene environment",
-            "Seasonal aesthetic",
-            "Perfect for summer evenings",
-          ],
+          id: "view-3",          price: "Classic",          name: "Outdoor Garden Terrace",          features: [
+            "Quiet serene environment",            "Seasonal aesthetic",            "Perfect for summer evenings"],
           buttons: [
             {
-              text: "Reserve Now",
-              href: "#reservation",
-            },
+              text: "Reserve Now",              href: "#reservation"},
           ],
         },
       ]}
@@ -282,30 +175,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "t1",
-          name: "Julianne Thorne",
-          imageSrc: "http://img.b2bpic.net/free-photo/couple-having-date-together-luxurious-restaurant_23-2150517442.jpg",
-        },
+          id: "t1",          name: "Julianne Thorne",          imageSrc: "http://img.b2bpic.net/free-photo/couple-having-date-together-luxurious-restaurant_23-2150517442.jpg"},
         {
-          id: "t2",
-          name: "Marcus Vane",
-          imageSrc: "http://img.b2bpic.net/free-photo/friends-eating-conversating-restaurant_23-2148006707.jpg",
-        },
+          id: "t2",          name: "Marcus Vane",          imageSrc: "http://img.b2bpic.net/free-photo/friends-eating-conversating-restaurant_23-2148006707.jpg"},
         {
-          id: "t3",
-          name: "Elena Rodriguez",
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-blonde-woman-evening-dress-smiling-holding-wine-glass_176420-3788.jpg",
-        },
+          id: "t3",          name: "Elena Rodriguez",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-blonde-woman-evening-dress-smiling-holding-wine-glass_176420-3788.jpg"},
         {
-          id: "t4",
-          name: "Cyrus Whitmore",
-          imageSrc: "http://img.b2bpic.net/free-photo/elegant-couple-spend-time-restaurant_1157-20509.jpg",
-        },
+          id: "t4",          name: "Cyrus Whitmore",          imageSrc: "http://img.b2bpic.net/free-photo/elegant-couple-spend-time-restaurant_1157-20509.jpg"},
         {
-          id: "t5",
-          name: "Sarah Jenkins",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-couple-having-lunch-luxury-restaurant_23-2150598413.jpg",
-        },
+          id: "t5",          name: "Sarah Jenkins",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-couple-having-lunch-luxury-restaurant_23-2150598413.jpg"},
       ]}
       cardTitle="Guest Impressions"
       cardTag="Luxury Dining"
@@ -319,20 +197,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "q1",
-          title: "Address",
-          content: "123 Gourmet Avenue, Gastronomy Plaza, City Center",
-        },
+          id: "q1",          title: "Address",          content: "123 Gourmet Avenue, Gastronomy Plaza, City Center"},
         {
-          id: "q2",
-          title: "Opening Hours",
-          content: "Monday - Sunday: 18:00 - 23:00",
-        },
+          id: "q2",          title: "Opening Hours",          content: "Monday - Sunday: 18:00 - 23:00"},
         {
-          id: "q3",
-          title: "Contact",
-          content: "reservations@syrischeshaus.com | +49 30 123 456",
-        },
+          id: "q3",          title: "Contact",          content: "reservations@syrischeshaus.com | +49 30 123 456"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/male-chef-kitchen-cooking_23-2148934672.jpg"
       title="Locate Us"
@@ -346,16 +215,13 @@ export default function LandingPage() {
       <ContactCTA
       useInvertedBackground={false}
       background={{
-        variant: "radial-gradient",
-      }}
+        variant: "radial-gradient"}}
       tag="Booking"
       title="Secure Your Experience"
       description="Spaces are limited to ensure the highest quality of service. We invite you to book your table in advance."
       buttons={[
         {
-          text: "Reserve A Table",
-          href: "#",
-        },
+          text: "Reserve A Table",          href: "#"},
       ]}
     />
   </div>
@@ -364,54 +230,33 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         {
-          title: "Syrisches Haus",
-          items: [
+          title: "Syrisches Haus",          items: [
             {
-              label: "About Us",
-              href: "#about",
-            },
+              label: "About Us",              href: "#about"},
             {
-              label: "Menu",
-              href: "#menu",
-            },
+              label: "Menu",              href: "#menu"},
             {
-              label: "Private Events",
-              href: "#",
-            },
+              label: "Private Events",              href: "#"},
           ],
         },
         {
-          title: "Information",
-          items: [
+          title: "Information",          items: [
             {
-              label: "Reservations",
-              href: "#reservation",
-            },
+              label: "Reservations",              href: "#reservation"},
             {
-              label: "Careers",
-              href: "#",
-            },
+              label: "Careers",              href: "#"},
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
           ],
         },
         {
-          title: "Social",
-          items: [
+          title: "Social",          items: [
             {
-              label: "Instagram",
-              href: "#",
-            },
+              label: "Instagram",              href: "#"},
             {
-              label: "Facebook",
-              href: "#",
-            },
+              label: "Facebook",              href: "#"},
             {
-              label: "LinkedIn",
-              href: "#",
-            },
+              label: "LinkedIn",              href: "#"},
           ],
         },
       ]}
